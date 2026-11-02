@@ -3,7 +3,7 @@
 **Project:** GhumoIndia (Built by Mayank Patel — AI Synergy Hackathon Problem 4: Tourism & Heritage)  
 **Theme:** *Beyond the Fort — Lesser-Known Archaeological & Cultural Destinations Across Madhya Pradesh*  
 **Live Production URL:** [https://ghumoindia-dusky.vercel.app/](https://ghumoindia-dusky.vercel.app/)  
-**Source Code Repository:** [ai_synergy_hackthon_team_srajan_probelm_04](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)  
+**Source Code Repository:** [Ghumo-India](https://github.com/MayankPatel014/Ghumo-India)  
 **Version:** 1.2.0 (Production Release)
 
 ---

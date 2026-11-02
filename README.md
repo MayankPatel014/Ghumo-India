@@ -3,9 +3,9 @@
 # 🏛️ GHUMO INDIA — Beyond the Fort
 ### AI-Assisted Discovery of Lesser-Known Heritage & Cultural Destinations Across Madhya Pradesh
 
-[![AI Synergy Hackathon 2026](https://img.shields.io/badge/AI_Synergy_Hackathon-2026-blueviolet?style=for-the-badge&logo=target)](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)
-[![Tourism Track](https://img.shields.io/badge/Track-Tourism_&_Heritage-FF6F00?style=for-the-badge&logo=compass)](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)
-[![Case Study 04](https://img.shields.io/badge/Case_Study-04_Beyond_the_Fort-00C853?style=for-the-badge&logo=readme)](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)
+[![AI Synergy Hackathon 2026](https://img.shields.io/badge/AI_Synergy_Hackathon-2026-blueviolet?style=for-the-badge&logo=target)](https://github.com/MayankPatel014/Ghumo-India)
+[![Tourism Track](https://img.shields.io/badge/Track-Tourism_&_Heritage-FF6F00?style=for-the-badge&logo=compass)](https://github.com/MayankPatel014/Ghumo-India)
+[![Case Study 04](https://img.shields.io/badge/Case_Study-04_Beyond_the_Fort-00C853?style=for-the-badge&logo=readme)](https://github.com/MayankPatel014/Ghumo-India)
 [![Live Hosted Application](https://img.shields.io/badge/🌐_Live_Demo-ghumoindia--dusky.vercel.app-00C853?style=for-the-badge&logo=vercel)](https://ghumoindia-dusky.vercel.app/)
 
 <br/>

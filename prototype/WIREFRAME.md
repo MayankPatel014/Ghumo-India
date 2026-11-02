@@ -6,7 +6,7 @@
 
 ```text
 +--------------------------------------------------+
-| SRAJAN | Beyond the Fort                         |
+| GHUMO INDIA | Beyond the Fort                   |
 | Discover destinations across Madhya Pradesh      |
 +--------------------------------------------------+
 | What interests you?                              |
