@@ -1,0 +1,280 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+@import 'leaflet/dist/leaflet.css';
+
+/* Theme Variables Mapped to Centralized Indian Heritage Tokens */
+:root {
+  --theme-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-primary: var(--color-background);
+  --bg-secondary: var(--color-surface-secondary);
+  --accent-primary: var(--color-primary);
+  --accent-secondary: var(--color-primary-hover);
+  --accent-gold: var(--color-accent-gold);
+  --accent-terracotta: var(--color-accent);
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+  --glass-bg: #FFFFFF;
+  --glass-border: var(--color-border);
+  --shadow-color: rgba(37, 41, 35, 0.05);
+  --card-bg: var(--color-surface);
+  --card-border: var(--color-border);
+}
+
+/* Morning / Day Theme - Warm Ivory, Deep Heritage Green & Sandstone */
+[data-theme="morning"] {
+  --bg-primary: #F6F2E9;
+  --bg-secondary: #E8DDC9;
+  --accent-primary: #183D32;
+  --accent-secondary: #285747;
+  --accent-gold: #A77C35;
+  --accent-terracotta: #A94327;
+  --text-primary: #252923;
+  --text-secondary: #555D57;
+  --text-muted: #626A63;
+  --glass-bg: #FFFFFF;
+  --glass-border: #DCD5C6;
+  --shadow-color: rgba(37, 41, 35, 0.05);
+  --card-bg: #FFFFFF;
+  --card-border: #DCD5C6;
+}
+
+/* Evening / Aarti Theme - Deep Nocturnal Heritage Green & Sacred Gold */
+[data-theme="evening"] {
+  --bg-primary: #0D1C17;
+  --bg-secondary: #1B382F;
+  --accent-primary: #34D399;
+  --accent-secondary: #10B981;
+  --accent-gold: #D6A85B;
+  --accent-terracotta: #E06D4E;
+  --text-primary: #F6F2E9;
+  --text-secondary: #C5CDC6;
+  --text-muted: #9BA59D;
+  --glass-bg: #132A23;
+  --glass-border: #23483D;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --card-bg: #132A23;
+  --card-border: #23483D;
+}
+
+/* Polished Editorial & Heritage Surfaces */
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+}
+
+.editorial-card {
+  background: var(--card-bg, #FFFFFF);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 2px 12px -2px var(--shadow-color);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px var(--shadow-color);
+  border-color: var(--accent-primary);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Map marker styles */
+.custom-marker {
+  background: none;
+  border: none;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  background: var(--card-bg) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--card-border) !important;
+  border-radius: 14px !important;
+  padding: 0 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Radix ScrollArea Styles */
+[data-slot="scroll-area-scrollbar"] {
+  background: transparent;
+  transition: background 0.2s;
+}
+
+[data-slot="scroll-area-scrollbar"][data-orientation="vertical"] {
+  width: 8px;
+}
+
+[data-slot="scroll-area-scrollbar"] > div {
+  background: var(--color-border);
+  border-radius: 9999px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+[data-slot="scroll-area-scrollbar"]:hover > div {
+  opacity: 1;
+  background: var(--color-primary);
+}
+
+[data-slot="scroll-area-scrollbar"][data-state="visible"] > div {
+  background: var(--color-border);
+}
+
+/* Markdown-like Text Styling for Heritage AI Responses */
+.markdown-content {
+  line-height: 1.65;
+  word-wrap: break-word;
+  color: var(--text-primary);
+}
+
+/* Bold text styling */
+.markdown-content strong,
+.markdown-text strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Italic styling */
+.markdown-content em,
+.markdown-text em {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+/* List styling for bullets */
+.markdown-content ul,
+.markdown-content ol,
+.markdown-text ul,
+.markdown-text ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.markdown-content li,
+.markdown-text li {
+  margin-bottom: 0.3rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+
+/* Paragraph spacing */
+.markdown-content p,
+.markdown-text p {
+  margin-bottom: 0.6rem;
+  white-space: normal;
+}
+
+/* Heading styling */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-text h1,
+.markdown-text h2,
+.markdown-text h3 {
+  font-weight: 700;
+  margin-top: 0.85rem;
+  margin-bottom: 0.45rem;
+  color: var(--text-primary);
+}
+
+.markdown-content h1,
+.markdown-text h1 { font-size: 1.25rem; }
+.markdown-content h2,
+.markdown-text h2 { font-size: 1.125rem; }
+.markdown-content h3,
+.markdown-text h3 { font-size: 1rem; }
+
+/* Code styling */
+.markdown-content code,
+.markdown-text code {
+  background: var(--bg-secondary);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  border: 1px solid var(--card-border);
+}
+
+/* Blockquote styling */
+.markdown-content blockquote,
+.markdown-text blockquote {
+  border-left: 3px solid var(--accent-primary);
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-bottom: 0.6rem;
+  color: var(--text-secondary);
+}
+
+/* Ticker marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Accessibility: Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-marquee {
+    animation: none !important;
+  }
+}
+
+/* Refined tactile button focus rings for WCAG 2.1 AA keyboard navigation */
+button:focus-visible, a:focus-visible, input:focus-visible, [tabindex="0"]:focus-visible {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}

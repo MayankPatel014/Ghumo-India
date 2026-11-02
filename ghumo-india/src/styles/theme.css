@@ -1,0 +1,196 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+
+  /* Contemporary Indian Heritage Design Tokens (Light / Morning) */
+  --color-primary: #183D32;              /* Deep Heritage Green */
+  --color-primary-hover: #285747;        /* Forest Green */
+  --color-primary-foreground: #FFFFFF;   /* White text: 11.98:1 contrast on #183D32 */
+  --color-background: #F6F2E9;          /* Warm Ivory */
+  --color-surface: #FFFFFF;             /* Pure White surface */
+  --color-surface-secondary: #E8DDC9;   /* Sandstone */
+  --color-text-primary: #252923;        /* 13.27:1 on #F6F2E9, 14.79:1 on #FFFFFF */
+  --color-text-secondary: #555D57;      /* 6.04:1 on #F6F2E9, 6.73:1 on #FFFFFF */
+  --color-text-muted: #626A63;          /* 4.93:1 on #F6F2E9, 5.50:1 on #FFFFFF */
+  --color-border: #DCD5C6;              /* Sandstone border */
+  --color-border-subtle: #EBE5D8;
+  --color-accent: #A94327;              /* Terracotta */
+  --color-accent-hover: #8F361E;
+  --color-accent-gold: #A77C35;         /* Muted Antique Gold */
+  --color-success: #1E5A38;             /* Deep Emerald Green */
+  --color-warning: #8A4B08;             /* Deep Amber */
+  --color-danger: #991B1B;              /* Deep Crimson */
+  --color-focus-ring: #183D32;
+
+  /* Radix UI & Shadcn Component standard variable mappings */
+  --background: var(--color-background);
+  --foreground: var(--color-text-primary);
+  --card: var(--color-surface);
+  --card-foreground: var(--color-text-primary);
+  --popover: var(--color-surface);
+  --popover-foreground: var(--color-text-primary);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-primary-foreground);
+  --secondary: var(--color-surface-secondary);
+  --secondary-foreground: var(--color-text-primary);
+  --muted: var(--color-surface-secondary);
+  --muted-foreground: var(--color-text-secondary);
+  --accent: var(--color-surface-secondary);
+  --accent-foreground: var(--color-text-primary);
+  --destructive: var(--color-danger);
+  --destructive-foreground: #ffffff;
+  --border: var(--color-border);
+  --input: var(--color-border);
+  --input-background: var(--color-surface);
+  --switch-background: var(--color-border);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: var(--color-focus-ring);
+  --radius: 0.625rem;
+  --sidebar: var(--color-surface);
+  --sidebar-foreground: var(--color-text-primary);
+  --sidebar-primary: var(--color-primary);
+  --sidebar-primary-foreground: var(--color-primary-foreground);
+  --sidebar-accent: var(--color-surface-secondary);
+  --sidebar-accent-foreground: var(--color-text-primary);
+  --sidebar-border: var(--color-border);
+  --sidebar-ring: var(--color-focus-ring);
+}
+
+.dark, [data-theme="evening"] {
+  /* Contemporary Indian Heritage Design Tokens (Evening / Dark Forest Nocturne) */
+  --color-primary: #34D399;              /* Luminous Emerald / Sage */
+  --color-primary-hover: #10B981;
+  --color-primary-foreground: #0D1C17;   /* Deep Dark Green text on light primary */
+  --color-background: #0D1C17;          /* Deep Nocturnal Heritage Green */
+  --color-surface: #132A23;             /* Rich Forest Surface */
+  --color-surface-secondary: #1B382F;   /* Deep Sandstone Moss */
+  --color-text-primary: #F6F2E9;        /* Warm Ivory text: >15:1 */
+  --color-text-secondary: #C5CDC6;      /* >8:1 */
+  --color-text-muted: #9BA59D;          /* >5.5:1 */
+  --color-border: #23483D;              /* Subtle Nocturnal Green border */
+  --color-border-subtle: #1C3B31;
+  --color-accent: #E06D4E;              /* Terracotta on Dark */
+  --color-accent-hover: #F08063;
+  --color-accent-gold: #D6A85B;         /* Antique Gold on Dark */
+  --color-success: #34D399;
+  --color-warning: #FBBF24;
+  --color-danger: #F87171;
+  --color-focus-ring: #34D399;
+
+  --background: var(--color-background);
+  --foreground: var(--color-text-primary);
+  --card: var(--color-surface);
+  --card-foreground: var(--color-text-primary);
+  --popover: var(--color-surface);
+  --popover-foreground: var(--color-text-primary);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-primary-foreground);
+  --secondary: var(--color-surface-secondary);
+  --secondary-foreground: var(--color-text-primary);
+  --muted: var(--color-surface-secondary);
+  --muted-foreground: var(--color-text-secondary);
+  --accent: var(--color-surface-secondary);
+  --accent-foreground: var(--color-text-primary);
+  --destructive: var(--color-danger);
+  --destructive-foreground: #0D1C17;
+  --border: var(--color-border);
+  --input: var(--color-border);
+  --input-background: var(--color-surface);
+  --ring: var(--color-focus-ring);
+  --sidebar: var(--color-surface);
+  --sidebar-foreground: var(--color-text-primary);
+  --sidebar-primary: var(--color-primary);
+  --sidebar-primary-foreground: var(--color-primary-foreground);
+  --sidebar-accent: var(--color-surface-secondary);
+  --sidebar-accent-foreground: var(--color-text-primary);
+  --sidebar-border: var(--color-border);
+  --sidebar-ring: var(--color-focus-ring);
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-text-primary);
+  --color-surface: var(--color-surface);
+  --color-surface-secondary: var(--color-surface-secondary);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-surface-secondary);
+  --color-secondary-foreground: var(--color-text-primary);
+  --color-muted: var(--color-surface-secondary);
+  --color-muted-foreground: var(--color-text-muted);
+  --color-accent: var(--color-accent);
+  --color-accent-gold: var(--color-accent-gold);
+  --color-destructive: var(--color-danger);
+  --color-destructive-foreground: #ffffff;
+  --color-border: var(--color-border);
+  --color-ring: var(--color-focus-ring);
+  --color-heritage-green: #183D32;
+  --color-heritage-forest: #285747;
+  --color-warm-ivory: #F6F2E9;
+  --color-sandstone: #E8DDC9;
+  --color-terracotta: #A94327;
+  --color-antique-gold: #A77C35;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    font-size: var(--font-size);
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  label {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+}
