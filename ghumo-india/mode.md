@@ -1,6 +1,6 @@
 # GhumoIndia — Mode Architecture, Features & UI Specification
 
-**Project:** GhumoIndia (Team Srajan — AI Synergy Hackathon Problem 4: Tourism & Heritage)  
+**Project:** GhumoIndia (Built by Mayank Patel — AI Synergy Hackathon Problem 4: Tourism & Heritage)  
 **Theme:** *Beyond the Fort — Lesser-Known Archaeological & Cultural Destinations Across Madhya Pradesh*  
 **Live Production URL:** [https://ghumoindia-dusky.vercel.app/](https://ghumoindia-dusky.vercel.app/)  
 **Source Code Repository:** [ai_synergy_hackthon_team_srajan_probelm_04](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)  
@@ -291,4 +291,4 @@ When running inside an Android environment (detected via `Capacitor.getPlatform(
 ---
 
 *Document compiled and verified against the live codebase.*  
-*Team Srajan — AI Synergy Hackathon 2026.*
+*Built by Mayank Patel — AI Synergy Hackathon 2026.*

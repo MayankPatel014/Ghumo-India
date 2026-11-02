@@ -146,14 +146,14 @@ export function ChatPanel({
       const greeting = language === 'hi'
         ? `🙏 **नमस्ते! घूमो इंडिया (Ghumo India) में आपका स्वागत है!**
 
-मैं **घूमो AI (Ghumo AI)** हूँ, आपकी बुद्धिमान यात्रा और धरोहर साथी — **टीम सृजन (Team Srajan)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track)** के लिए विकसित।
+मैं **घूमो AI (Ghumo AI)** हूँ, आपकी बुद्धिमान यात्रा और धरोहर साथी — **मयंक पटेल (Mayank Patel)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track)** के लिए निर्मित।
 
 मैं आपको मध्य प्रदेश के अनदेखे पुरातात्विक चमत्कारों (बटेश्वर 200 मंदिर, मितावली चौसठ योगिनी, गढ़ी पढ़ावली, ककनमठ सुहानिया), ऐतिहासिक किलों (ग्वालियर किला, ओरछा पैलेस) एवं देश के प्रमुख तीर्थों व धरोहरों के प्रमाणित स्रोत, समयबद्ध यात्रा योजना, फोटोग्राफी और सड़क मार्ग की पूरी जानकारी प्रदान करती हूँ।
 
 _आप मुझसे किसी भी धरोहर का इतिहास, रूट मैप, टाइमलाइन अथवा यात्रा सलाह पूछ सकते हैं या बोलकर संवाद कर सकते हैं!_`
         : `🙏 **Namaste & Welcome to Ghumo India!**
 
-I am **Ghumo AI**, your intelligent travel & heritage companion built by **Team Srajan** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
+I am **Ghumo AI**, your intelligent travel & heritage companion built by **Mayank Patel** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
 
 I guide you through Madhya Pradesh's hidden archaeological wonders (Bateshwar 200 Temples, Mitawali Chausath Yogini, Garhi Padhavali, Kakanmath), royal corridors (Gwalior Fort, Orchha, Chanderi), and India's heritage circuits with grounded sources, time-aware itineraries, and verified travel feasibility.
 
@@ -181,14 +181,14 @@ _Ask me anything in English or Hindi, request routes & heritage photos, or use t
       const greeting = language === 'hi'
         ? `🙏 **नमस्ते! घूमो इंडिया (Ghumo India) में आपका स्वागत है!**
 
-मैं **घूमो AI (Ghumo AI)** हूँ, आपकी बुद्धिमान यात्रा और धरोहर साथी — **टीम सृजन (Team Srajan)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track)** के लिए विकसित।
+मैं **घूमो AI (Ghumo AI)** हूँ, आपकी बुद्धिमान यात्रा और धरोहर साथी — **मयंक पटेल (Mayank Patel)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track)** के लिए निर्मित।
 
 मैं आपको मध्य प्रदेश के अनदेखे पुरातात्विक चमत्कारों (बटेश्वर 200 मंदिर, मितावली चौसठ योगिनी, गढ़ी पढ़ावली, ककनमठ सुहानिया), ऐतिहासिक किलों (ग्वालियर किला, ओरछा पैलेस) एवं देश के प्रमुख तीर्थों व धरोहरों के प्रमाणित स्रोत, समयबद्ध यात्रा योजना, फोटोग्राफी और सड़क मार्ग की पूरी जानकारी प्रदान करती हूँ।
 
 _आप मुझसे किसी भी धरोहर का इतिहास, रूट मैप, टाइमलाइन अथवा यात्रा सलाह पूछ सकते हैं या बोलकर संवाद कर सकते हैं!_`
         : `🙏 **Namaste & Welcome to Ghumo India!**
 
-I am **Ghumo AI**, your intelligent travel & heritage companion built by **Team Srajan** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
+I am **Ghumo AI**, your intelligent travel & heritage companion built by **Mayank Patel** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
 
 I guide you through Madhya Pradesh's hidden archaeological wonders (Bateshwar 200 Temples, Mitawali Chausath Yogini, Garhi Padhavali, Kakanmath), royal corridors (Gwalior Fort, Orchha, Chanderi), and India's heritage circuits with grounded sources, time-aware itineraries, and verified travel feasibility.
 
@@ -1059,7 +1059,7 @@ _Ask me anything in English or Hindi, request routes & heritage photos, or use t
             <div className="flex items-center justify-between text-[11px] text-[var(--text-secondary)] mt-2 px-3">
               <span className="flex items-center gap-1.5 font-medium">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-500" />
-                {language === 'hi' ? 'घूमो इंडिया • टीम सृजन (प्रॉब्लम 4 - पर्यटन)' : 'Ghumo India • Team Srajan (Problem 4 - Tourism Track)'}
+                {language === 'hi' ? 'घूमो इंडिया • मयंक पटेल द्वारा निर्मित (पर्यटन)' : 'Ghumo India • Built by Mayank Patel (Tourism Track)'}
               </span>
               <span className="hidden sm:inline font-medium text-[var(--color-text-secondary)]">
                 {language === 'hi' ? 'बियॉन्ड द फोर्ट • मध्य प्रदेश अनदेखी धरोहर एवं पर्यटन पोर्टल' : 'Beyond The Fort • MP Lesser-Known Heritage Discovery'}

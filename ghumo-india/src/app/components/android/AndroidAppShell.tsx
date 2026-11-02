@@ -148,7 +148,7 @@ export function AndroidAppShell({
               <div className="flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse flex-shrink-0" />
                 <p className="text-[10px] font-medium text-[var(--text-secondary)] truncate">
-                  {language === 'hi' ? 'घूमो इंडिया • टीम सृजन (प्रॉब्लम 4)' : 'Ghumo India • Team Srajan'}
+                  {language === 'hi' ? 'घूमो इंडिया • मयंक पटेल द्वारा निर्मित' : 'Ghumo India • Built by Mayank Patel'}
                 </p>
               </div>
             </div>

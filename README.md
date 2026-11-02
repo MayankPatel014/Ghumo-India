@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏛️ SRAJAN — Beyond the Fort
+# 🏛️ GHUMO INDIA — Beyond the Fort
 ### AI-Assisted Discovery of Lesser-Known Heritage & Cultural Destinations Across Madhya Pradesh
 
 [![AI Synergy Hackathon 2026](https://img.shields.io/badge/AI_Synergy_Hackathon-2026-blueviolet?style=for-the-badge&logo=target)](https://github.com/2k24cs1k2412828-cloud/ai_synergy_hackthon_team_srajan_probelm_04)
@@ -72,7 +72,7 @@ Detailed analysis of competing framings is documented in [docs/CASE_AND_PROBLEM.
 
 ## 💡 Proposed Solution
 
-Team Srajan proposes a **mobile-first, discovery-focused cultural tourism platform**:
+Built by **Mayank Patel**, Ghumo India is a **mobile-first, discovery-focused cultural tourism platform**:
 
 ```
  ┌──────────────────────┐      ┌─────────────────────────┐      ┌────────────────────────┐
@@ -234,9 +234,9 @@ gantt
 
 ---
 
-## 👥 Team & Submission Information
+## 👥 Project & Author Information
 
-- **Team Name:** Team Srajan
+- **Built By:** Mayank Patel
 - **Hackathon:** AI Synergy Hackathon 2026
 - **Track:** Tourism & Heritage
 - **Case Study:** Case Study 04 — *Beyond the Fort*

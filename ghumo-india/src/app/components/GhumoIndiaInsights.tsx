@@ -178,7 +178,7 @@ export function GhumoIndiaInsights({ isOpen, onClose, theme }: GhumoIndiaInsight
             <div className="space-y-4">
               <section className="rounded-2xl border border-[var(--glass-border)] bg-[var(--bg-secondary)] p-4">
                 <p className="mb-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--accent-primary)]">
-                  Team Srajan • AI Synergy Hackathon 2026 (Problem 4 - Tourism Track)
+                  Built by Mayank Patel • AI Synergy Hackathon 2026 (Problem 4 - Tourism Track)
                 </p>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)]">
                   Ghumo India — AI-Assisted Discovery of Lesser-Known Heritage Across Madhya Pradesh

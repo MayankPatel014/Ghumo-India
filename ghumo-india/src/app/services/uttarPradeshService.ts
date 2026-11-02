@@ -1341,8 +1341,8 @@ export const UP_TRAVEL_ROUTES: UPRoute[] = [
     id: 'chambal_heritage_corridor',
     name: { en: 'Beyond the Fort: Chambal Heritage Corridor (Gwalior - Mitawali - Padhavali - Bateshwar - Kakanmath)', hi: 'बियॉन्ड द फोर्ट: चंबल हेरिटेज कॉरिडोर (ग्वालियर - मितावली - पढ़ावली - बटेश्वर - ककनमठ)' },
     description: {
-      en: 'The signature Team Srajan heritage discovery circuit connecting Gwalior Fort to the four world-class medieval monuments of Morena.',
-      hi: 'टीम सृजन का विशेष हेरिटेज परिपथ जो ग्वालियर दुर्ग को मुरैना की चार विश्वस्तरीय मध्यकालीन धरोहरों से जोड़ता है।'
+      en: 'The signature Mayank Patel heritage discovery circuit connecting Gwalior Fort to the four world-class medieval monuments of Morena.',
+      hi: 'मयंक पटेल द्वारा निर्मित विशेष हेरिटेज परिपथ जो ग्वालियर दुर्ग को मुरैना की चार विश्वस्तरीय मध्यकालीन धरोहरों से जोड़ता है।'
     },
     cities: ['Gwalior', 'Morena'],
     waypoints: [

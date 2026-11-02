@@ -308,7 +308,7 @@ _Your Copilot Timeline Drawer and interactive map track have been updated automa
     const identityText = activeLang === 'hi'
       ? `### 🙏 नमस्ते! मैं घूमो AI (Ghumo AI) हूँ
 
-मैं **घूमो इंडिया (Ghumo India)** की आपकी आधिकारिक **एआई यात्रा साथी एवं डिजिटल मार्गदर्शक** हूँ — **टीम सृजन (Team Srajan)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track - Beyond the Fort)** के लिए विकसित।
+मैं **घूमो इंडिया (Ghumo India)** की आपकी आधिकारिक **एआई यात्रा साथी एवं डिजिटल मार्गदर्शक** हूँ — **मयंक पटेल (Mayank Patel)** द्वारा **AI Synergy Hackathon Problem 4 (Tourism Track - Beyond the Fort)** के लिए निर्मित।
 
 मैं आपकी मध्य प्रदेश व भारतीय धरोहर यात्रा, तीर्थाटन एवं सांस्कृतिक दर्शन को सुगम व ज्ञानवर्धक बनाने के लिए निम्नलिखित सेवाएं प्रदान करती हूँ:
 
@@ -323,7 +323,7 @@ _Your Copilot Timeline Drawer and interactive map track have been updated automa
 _आप मध्य प्रदेश अथवा देश के किस धरोहर स्थल या यात्रा मार्ग की जानकारी चाहते हैं?_`
       : `### 🙏 Namaste! I am Ghumo AI (घूमो AI)
 
-I am your official **AI Travel Companion & Heritage Concierge** for **Ghumo India**, created by **Team Srajan** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
+I am your official **AI Travel Companion & Heritage Concierge** for **Ghumo India**, built by **Mayank Patel** for **AI Synergy Hackathon Problem 4 Track Tourism (Beyond the Fort)**.
 
 Here is how I assist your exploration of Madhya Pradesh and India's heritage wonders:
 
@@ -850,7 +850,7 @@ Key Temple Queue Breakdown: ${districtCrowd.keySpots.map(s => `${s.name} (${s.wa
 Provide this EXACT numerical queue time and advice clearly to the user!
 ` : '';
 
-  const systemPrompt = `You are Ghumo AI (घूमो एआई), the official, intelligent and highly informed travel companion for Ghumo India (Team Srajan).
+  const systemPrompt = `You are Ghumo AI (घूमो एआई), the official, intelligent and highly informed travel companion for Ghumo India (Built by Mayank Patel).
 Your knowledge covers all 75 districts of Uttar Pradesh including Jhansi, Kanpur, Ayodhya, Varanasi, Mathura, Vrindavan, Prayagraj, Agra, Lucknow, Chitrakoot, Gorakhpur, Mirzapur, etc.
 
 Language Guidelines:
@@ -1242,10 +1242,10 @@ ${p.deepHistory.en}
 
   // Default rich overview
   const generalText = lang === 'hi'
-    ? `### 🙏 नमस्ते! मैं घूमो इंडिया (Ghumo India — Team Srajan) की एआई साथी घूमो AI (Ghumo AI) हूँ।
+    ? `### 🙏 नमस्ते! मैं घूमो इंडिया (Ghumo India — मयंक पटेल द्वारा निर्मित) की एआई साथी घूमो AI (Ghumo AI) हूँ।
 
 मैं मध्य प्रदेश के अनदेखे ऐतिहासिक स्थलों (बटेश्वर, मितावली, गढ़ी पढ़ावली, ककनमठ, ग्वालियर किला, ओरछा, चंदेरी) तथा देश के सभी प्रमुख पर्यटन सर्किट की संपूर्ण यात्रा योजना, रूट, फोटो और प्रमाणिक जानकारी प्रदान कर सकती हूँ!`
-    : `### 🙏 Namaste! I am Ghumo AI, your travel and heritage companion for Ghumo India (Team Srajan — AI Synergy Hackathon Problem 4 Track Tourism).
+    : `### 🙏 Namaste! I am Ghumo AI, your travel and heritage companion for Ghumo India (Built by Mayank Patel — AI Synergy Hackathon Problem 4 Track Tourism).
 
 I provide verified itineraries, route maps, historical context, and photos for Madhya Pradesh's hidden heritage (Bateshwar, Mitawali, Padhavali, Kakanmath, Gwalior Fort, Orchha) and premier travel destinations across India!`;
 

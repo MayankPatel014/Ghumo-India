@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Live Hosted Application](https://img.shields.io/badge/🌐_Live_Demo-ghumoindia--dusky.vercel.app-00C853?style=for-the-badge&logo=vercel)
-![Ghumo India Banner](https://img.shields.io/badge/Ghumo%20India-Team%20Srajan-orange?style=for-the-badge&logo=compass)
+![Ghumo India Banner](https://img.shields.io/badge/Ghumo%20India-Mayank%20Patel-orange?style=for-the-badge&logo=compass)
 ![AI Synergy Hackathon](https://img.shields.io/badge/AI%20Synergy%20Hackathon-Problem%2004-blueviolet?style=for-the-badge&logo=target)
 ![Track](https://img.shields.io/badge/Track-Tourism%20%26%20Heritage-FF6F00?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)
@@ -12,7 +12,7 @@
 ![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite)
 ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-AI-4285F4?style=for-the-badge&logo=google)
 
-**Ghumo India — Team Srajan, AI Synergy Hackathon Problem 4 Track Tourism**
+**Ghumo India — Built by Mayank Patel, AI Synergy Hackathon Problem 4 Track Tourism**
 
 > 🌐 **Live Production Deployment**: [**https://ghumoindia-dusky.vercel.app/**](https://ghumoindia-dusky.vercel.app/)
 
@@ -24,7 +24,7 @@
 
 ## 📖 Overview
 
-**Ghumo India** is an evidence-grounded, bilingual AI travel & heritage discovery platform developed by **Team Srajan** for the **AI Synergy Hackathon 2026 (Problem 4: Tourism & Heritage Track — "Beyond the Fort")**.
+**Ghumo India** is an evidence-grounded, bilingual AI travel & heritage discovery platform developed by **Mayank Patel** for the **AI Synergy Hackathon 2026 (Problem 4: Tourism & Heritage Track — "Beyond the Fort")**.
 
 While famous monuments like Gwalior Fort or Khajuraho receive sustained footfall, extraordinary heritage complexes within 30–90 km (such as the 200-temple **Bateshwar complex**, the circular **Chausath Yogini at Mitawali**, **Garhi Padhavali**, and the mortarless **Kakanmath Shiva Temple**) remain largely overlooked due to discovery, information reliability, and transport feasibility gaps.
 
